@@ -1,0 +1,107 @@
+section input,
+section select {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 5px;
+  outline: none;
+}
+
+input.invalido,
+#invalido {
+  border: 1px solid #b31212;
+}
+
+.select {
+  display: flex;
+}
+
+.gener {
+  width: 40%;
+}
+
+.birth {
+  padding-left: 5px;
+  width: 60%;
+}
+
+label {
+  text-align: left;
+  margin: 0 8px;
+}
+
+span {
+  color: brown;
+}
+
+span.erro {
+  display: flex;
+  margin-left: 6px;
+}
+
+.alert {
+  display: none;
+}
+
+.alert.active {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.alert.active h3 {
+  position: absolute;
+  right: 0;
+  padding: 3px 10px;
+  color: rgb(64, 61, 61);
+  cursor: pointer;
+}
+
+.alert.active p {
+  border-top: 2px solid grey;
+  margin-top: 35px;
+  padding: 25px;
+  height: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.alertOn {
+  filter: blur(3px);
+}
+
+@media (min-width: 700px) {
+  .container {
+    padding: 15px 40px;
+  }
+
+  .name,
+  .password {
+    display: flex;
+  }
+
+  .first-name,
+  .pass {
+    width: 40vw;
+  }
+
+  .surname,
+  .repeat-pass {
+    padding-left: 8px;
+    width: 40vw;
+  }
+}
+
+@media (min-width: 850px) {
+  .container {
+    padding: 15px 30px;
+    width: 500px;
+  }
+}

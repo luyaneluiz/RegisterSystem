@@ -1,0 +1,51 @@
+.email input,
+.password input {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px;
+  outline: none;
+}
+
+.remember {
+  margin: 5px 0;
+}
+
+.remember input {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 550px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  .email input,
+  .password input {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 500px;
+  }
+
+  .email input,
+  .password input {
+    width: 300px;
+  }
+}

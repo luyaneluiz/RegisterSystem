@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./register.css" />
+    <link rel="shortcut icon" href="../img/logo.png" />
+    <title>Register</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="../img/logo.png"
+          alt="logo ovelha laranja"
+          style="height: 60px"
+        />
+        <h1>Welcome!</h1>
+        <p>Create your account.</p>
+      </header>
+      <main>
+        <form>
+          <section>
+            <div class="name">
+              <div class="first-name">
+                <label for="name">Name</label>
+                <input type="text" />
+              </div>
+              <div class="surname">
+                <label for="Surname">Surname</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="select">
+              <div class="gener">
+                <label for="Gener">Gener</label>
+                <select name="Gener">
+                  <option value="Man">Man</option>
+                  <option value="Woman">Woman</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="birth">
+                <label for="Birthday">Birthday</label>
+                <input type="date" />
+              </div>
+            </div>
+            <div class="email">
+              <label for="email">E-mail</label>
+              <input type="email" />
+            </div>
+            <div class="password">
+              <div class="pass">
+                <label for="password">Password</label>
+                <input type="password" />
+              </div>
+              <div class="repeat-pass">
+                <label for="password">Repeat Password</label>
+                <input type="password" />
+              </div>
+            </div>
+          </section>
+
+          <div class="submit">
+            <input type="submit" value="REGISTER" />
+          </div>
+        </form>
+      </main>
+      <footer>
+        <p>
+          Alredy have an account?
+          <a href="../index.html">Login.</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
